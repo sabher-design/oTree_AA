@@ -8,11 +8,12 @@ SESSION_CONFIGS = [
        ###Testing:
        #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP', 'app5_p1112_quest_TP']
        ###INFO, SPEC, SPECG:
-       app_sequence=['app1_p1234_intro', 'app3_p5678']
+       ###app_sequence=['app1_p1234_intro', 'app3_p5678']
        ###app_sequence=[ 'app1_p1234_intro','word_encryption_trial', 'app3_p5678','word_encryption', 'app5_p1112_quest']
        ###Tournament participants:
        #app_sequence=[ 'app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP','word_encryption_round1','word_encryption_round2','word_encryption_round3',
-                      #'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
+        #              'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
+        app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_men']
      ),
 ]
 

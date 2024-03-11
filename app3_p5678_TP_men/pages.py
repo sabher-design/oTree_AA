@@ -2,7 +2,7 @@ from otree.api import Currency as c, currency_range
 from ._builtin import Page, WaitPage
 from .models import Constants
        
-class p5_TP_women(Page):
+class p5_TP_men(Page):
     form_model = 'player'
 
 
@@ -85,5 +85,5 @@ class attention_check2(Page):
     form_fields = ['attention_check2']
 
 
-page_sequence = [p5_TP_women, p6a, attention_check1,
+page_sequence = [p5_TP_men, p6a, attention_check1,
 p6b1, p6b2_1, p6b2_2, p6b2_3, p6b2_4, p6b3, p6b4_1, p6b4_2, p6b4_3, p6b4_4, p8]
