@@ -7,7 +7,7 @@ from .models import Constants
 
 class p10_SPECnSPECG(Page):
     def is_displayed(self):
-        if self.player.treatment == 'SPEC' or self.player.treatment == 'SPECG':
+        if self.player.treatment == 'SPECG':
              return True
         else:
              return False
@@ -22,14 +22,6 @@ class p11_INFO (Page):
     form_model = 'player'
     form_fields = ['ingroup1_info', 'ingroup2_info', 'ingroup3_info', 'ingroup4_info']
 
-class p11_SPEC(Page):
-    def is_displayed(self):
-        if self.player.treatment == 'SPEC':
-             return True
-        else:
-             return False
-    form_model = 'player'
-    form_fields = ['ingroup1_specs', 'ingroup2_specs', 'ingroup3_specs', 'ingroup4_specs']
 
 class p11_SPECG(Page):
     def is_displayed(self):
@@ -41,27 +33,19 @@ class p11_SPECG(Page):
     form_fields = ['ingroup1_specs', 'ingroup2_specs', 'ingroup3_specs', 'ingroup4_specs']
 
 # Sending smileys
-class p12_INFO_Green(Page):
+class p12_INFO_women(Page):
     def is_displayed(self):
-        if self.player.treatment == 'INFO' and self.player.color == 'Green':
+        if self.player.treatment == 'INFO':
              return True
         else:
              return False
     form_model = 'player'
     form_fields = ['smiley2', 'smiley3', 'smiley4', 'smiley5', 'smiley6']
 
-class p12_INFO_Blue(Page):
-    def is_displayed(self):
-        if self.player.treatment == 'INFO' and self.player.color == 'Blue':
-             return True
-        else:
-             return False
-    form_model = 'player'
-    form_fields = ['smiley1', 'smiley2', 'smiley3', 'smiley4', 'smiley5']
 
 class p12_SPECnSPECG(Page):
     def is_displayed(self):
-        if self.player.treatment == 'SPEC' or self.player.treatment == 'SPECG':
+        if self.player.treatment == 'SPECG':
              return True
         else:
              return False
@@ -176,7 +160,7 @@ class attention_check3(Page):
 class goodbye(Page):
     pass
 
-page_sequence = [p10_SPECnSPECG, p11_INFO, p11_SPEC, p11_SPECG, p12_INFO_Green, p12_INFO_Blue, p12_SPECnSPECG, 
+page_sequence = [p10_SPECnSPECG, p11_INFO, p11_SPECG, p12_INFO_women, p12_SPECnSPECG,
 q0_aafavor1, q0_aafavor2, q0_aafavor3, q0_aafavor4, q0_aafavor5, q0_aafavor6, q1_risk, q2_socialpref, 
 q3_demographics, attention_check3, q4_politic, q5_discrimination, q6_efficiencypref, q7_fairnessAA, 
 q8_1overconfidence_quiz, q8_2overconfidence_quiz, q8_overconfidence, goodbye]

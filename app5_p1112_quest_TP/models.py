@@ -34,15 +34,13 @@ class Subsession(BaseSubsession):
      # carry on treatment and color assignment from previous app
        for p in self.get_players():
             p.treatment = p.participant.vars['treatment']
-            p.color=p.participant.vars['color']
-        
+
             
 class Group(BaseGroup):
     pass
 
 class Player(BasePlayer):
     treatment = models.StringField()
-    color = models.StringField()
     aa_rand = models.StringField()
 
     # In-group favoritism
