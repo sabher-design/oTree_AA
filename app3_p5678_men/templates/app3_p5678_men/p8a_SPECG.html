@@ -8,12 +8,12 @@
 
 {% block content %}
     
-<p> Do you expect tournament participants with the color <b>Green</b> (Multiplier of 0.9), to be more or less 
+<p> Do you expect female tournament participants (Multiplier of 0.9), to be more or less
     or equally likely to win the tournament <b>with the special rule than without the special rule?</b></p>
     
     {% formfield player.belief1_specs %}
     <br>
-<p> Do you expect tournament participants with the color <b>Blue</b> (Multiplier of 1), to be more or less 
+<p> Do you expect male tournament participants (Multiplier of 1), to be more or less
     or equally likely to win the tournament <b>with the special rule than without the special rule?</b></p>
     
     {% formfield player.belief2_specs %}
@@ -25,7 +25,7 @@
            <br>
                
 <p> How do you think the introduction of the special rule affects the probability of winning 
-     of the Blue (Multiplier of 1) and the Green (Multiplier of 0.9) type? (choose one answer)</p>
+     for each gender? (choose one answer)</p>
        
      {% formfield player.belief4_specs %}
         <br>
