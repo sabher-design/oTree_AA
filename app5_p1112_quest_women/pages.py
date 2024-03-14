@@ -165,4 +165,3 @@ q0_aafavor1, q0_aafavor2, q0_aafavor3, q0_aafavor4, q0_aafavor5, q0_aafavor6, q1
 q3_demographics, attention_check3, q4_politic, q5_discrimination, q6_efficiencypref, q7_fairnessAA, 
 q8_1overconfidence_quiz, q8_2overconfidence_quiz, q8_overconfidence, goodbye]
 
-#page_sequence = [attention_check3, q6_efficiencypref]

@@ -166,4 +166,3 @@ page_sequence = [p5_INFOwomen, p5_SPECGwomen, p6a_INFOwomen, p6a_SPECnSPECGwomen
 p6b1, p6b2_1, p6b2_2, p6b2_3, p6b2_4, p6b3, p6b4_1, p6b4_2, p6b4_3, p6b4_4, p7, p8_INFO,
 p8a_SPECG, p8b_SPECnSPECG, p8c_SPECnSPECG]
 
-#page_sequence = [p8_INFO, p8a_SPEC, p8a_SPECG]

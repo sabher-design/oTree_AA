@@ -87,27 +87,27 @@ class Player(BasePlayer):
 
     #Sending smileys
     smiley1= models.BooleanField(
-        label='To tournament participant 1 (female) ',
+        label='To tournament participant 1 (Woman) ',
         widget= widgets.RadioSelect)
 
     smiley2= models.BooleanField(
-        label='To tournament participant 2 (female) ',
+        label='To tournament participant 2 (Woman) ',
         widget= widgets.RadioSelect)
 
     smiley3= models.BooleanField(
-        label='To tournament participant 3 (female) ',
+        label='To tournament participant 3 (Woman) ',
         widget= widgets.RadioSelect)
 
     smiley4= models.BooleanField(
-        label='To tournament participant 4 (male)  ',
+        label='To tournament participant 4 (Man)  ',
         widget= widgets.RadioSelect)
 
     smiley5= models.BooleanField(
-        label='To tournament participant 5 (male)  ',
+        label='To tournament participant 5 (Man)  ',
         widget= widgets.RadioSelect)
 
     smiley6= models.BooleanField(
-        label='To tournament participant 6 (male)  ',
+        label='To tournament participant 6 (Man)  ',
         widget= widgets.RadioSelect)
 
 

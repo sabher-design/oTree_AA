@@ -103,8 +103,8 @@ class Player(BasePlayer):
     belief4_specs = models.StringField(
         label= '',
         choices = ['With the special rule, both groups have about the same chance', 
-                   'With the special rule, the Blue type has a higher chance of winning than the Green type', 
-                   'With the special rule, the Green type has a higher chance of winning than the Blue type'],
+                   'With the special rule, the men have a higher chance of winning than women',
+                   'With the special rule, the women have a higher chance of winning than men'],
         widget = widgets.RadioSelect)
 
     belief5_specs = models.IntegerField(label="")

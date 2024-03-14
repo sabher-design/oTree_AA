@@ -4,16 +4,31 @@ SESSION_CONFIGS = [
     dict(
        name='AAPref',
        display_name="AAPref",
-       num_demo_participants=6,
+       num_demo_participants=4,
        ###Testing:
-       #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP', 'app5_p1112_quest_TP']
+
        ###INFO, SPEC, SPECG:
-       #app_sequence=['app1_p1234_intro_women_men', 'app5_p1112_quest_men']
-       ###app_sequence=[ 'app1_p1234_intro','word_encryption_trial', 'app3_p5678','word_encryption', 'app5_p1112_quest']
+       #women
+       #app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_women', 'word_encryption', 'app5_p1112_quest_women']
+       #men
+       #app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_men', 'word_encryption', 'app5_p1112_quest_men']
+       #women-testing
+       #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
+       #men-testing
+       app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_men', 'app5_p1112_quest_men']
+
        ###Tournament participants:
-       #app_sequence=[ 'app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP','word_encryption_round1','word_encryption_round2','word_encryption_round3',
-       #              'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
-       app_sequence=['app1_p1234_intro_TP', 'app5_p1112_quest_women']
+       #women
+       #app_sequence=[ 'app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP_women','word_encryption_round1','word_encryption_round2','word_encryption_round3',
+                     #'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
+       #men
+       #app_sequence = ['app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP_men', 'word_encryption_round1',
+        #            'word_encryption_round2', 'word_encryption_round3',
+         #           'word_encryption_round4', 'word_encryption_round5', 'word_encryption_round6', 'app5_p1112_quest_TP']
+       #women-testing
+       #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
+       #men-testing
+       #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_men', 'app5_p1112_quest_TP']
 
      ),
 ]
