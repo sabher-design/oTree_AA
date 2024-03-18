@@ -104,7 +104,7 @@ class Player(BasePlayer):
         label= '',
         choices = ['With the special rule, both genders have about the same chance',
                    'With the special rule, men have a higher chance of winning than women',
-                   'With the special rule, the women have have a higher chance of winning than the men'],
+                   'With the special rule, women have have a higher chance of winning than men'],
         widget = widgets.RadioSelect)
 
     belief5_specs = models.IntegerField(label="")
