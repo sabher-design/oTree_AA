@@ -15,7 +15,7 @@ SESSION_CONFIGS = [
        #women-testing
        #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
        #men-testing
-       app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_men', 'app5_p1112_quest_men']
+       #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_men', 'app5_p1112_quest_men']
 
        ###Tournament participants:
        #women
@@ -28,7 +28,7 @@ SESSION_CONFIGS = [
        #women-testing
        #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
        #men-testing
-       #app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_men', 'app5_p1112_quest_TP']
+       app_sequence=['app1_p1234_intro_TP', 'app3_p5678_TP_men', 'app5_p1112_quest_TP']
 
      ),
 ]
