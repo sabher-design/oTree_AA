@@ -19,14 +19,14 @@ SESSION_CONFIGS = [
 
        ###Tournament participants:
        #women
-       #app_sequence=[ 'app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP_women','word_encryption_round1','word_encryption_round2','word_encryption_round3',
-                     #'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
+       app_sequence=[ 'app1_p1234_intro_TP_women_men', 'word_encryption_trial_TP', 'app3_p5678_TP_women','word_encryption_round1','word_encryption_round2','word_encryption_round3',
+                     'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
        #men
        #app_sequence = ['app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP_men', 'word_encryption_round1',
         #            'word_encryption_round2', 'word_encryption_round3',
          #           'word_encryption_round4', 'word_encryption_round5', 'word_encryption_round6', 'app5_p1112_quest_TP']
        #women-testing
-       app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
+       #app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
        #men-testing
        #app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_men', 'app5_p1112_quest_TP']
 
