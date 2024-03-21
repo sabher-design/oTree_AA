@@ -2,35 +2,44 @@ from os import environ
 
 SESSION_CONFIGS = [
     dict(
-       name='AAPref',
-       display_name="AAPref",
-       num_demo_participants=4,
-       ###Testing:
-
-       ###INFO, SPEC, SPECG:
-       #women
-       #app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_women', 'word_encryption', 'app5_p1112_quest_women']
-       #men
-       #app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_men', 'word_encryption', 'app5_p1112_quest_men']
-       #women-testing
-       #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
-       #men-testing
-       #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_men', 'app5_p1112_quest_men']
-
-       ###Tournament participants:
-       #women
+       name='AAPref_infospec_women',
+       display_name="AAPref_infospec_women",
+       num_demo_participants=10,
+       #infospec women
+       app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_women', 'word_encryption', 'app5_p1112_quest_women']
+        ),
+    # women-testing
+    # app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
+    dict(
+       name='AAPref_infospec_men',
+       display_name="AAPref_infospec_men",
+       num_demo_participants=10,
+       #infospec men
+       app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_men', 'word_encryption', 'app5_p1112_quest_men']
+        # men-testing
+        # app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_men', 'app5_p1112_quest_men']
+        ),
+    dict(
+       name='AAPref_TP_women',
+       display_name="AAPref_TP_women",
+       num_demo_participants=10,
+       #TP women
        app_sequence=[ 'app1_p1234_intro_TP_women_men', 'word_encryption_trial_TP', 'app3_p5678_TP_women','word_encryption_round1','word_encryption_round2','word_encryption_round3',
                      'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
-       #men
-       #app_sequence = ['app1_p1234_intro_TP', 'word_encryption_trial_TP', 'app3_p5678_TP_men', 'word_encryption_round1',
-        #            'word_encryption_round2', 'word_encryption_round3',
-         #           'word_encryption_round4', 'word_encryption_round5', 'word_encryption_round6', 'app5_p1112_quest_TP']
-       #women-testing
-       #app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
+        # women-testing
+        # app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_women', 'app5_p1112_quest_TP']
+    ),
+    dict(
+       name='AAPref_TP_men',
+       display_name="AAPref_TP_men",
+       num_demo_participants=10,
+       #TP men
+       app_sequence = ['app1_p1234_intro_TP_women_men', 'word_encryption_trial_TP', 'app3_p5678_TP_men', 'word_encryption_round1',
+                    'word_encryption_round2', 'word_encryption_round3',
+                    'word_encryption_round4', 'word_encryption_round5', 'word_encryption_round6', 'app5_p1112_quest_TP']
        #men-testing
        #app_sequence=['app1_p1234_intro_TP_women_men', 'app3_p5678_TP_men', 'app5_p1112_quest_TP']
-
-     ),
+     )
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs

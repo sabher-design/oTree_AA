@@ -18,7 +18,7 @@ Your app description
 """
 
 class Constants(BaseConstants):
-    name_in_url = 'quest'
+    name_in_url = 'quest_w'
     players_per_group = None
     num_rounds = 1
     

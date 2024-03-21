@@ -12,7 +12,7 @@ Your app description
 
 
 class Constants(BaseConstants):
-    name_in_url = 'word_encryption_trial'
+    name_in_url = 'word_encryption_trial_TP'
     players_per_group = None
     num_rounds = 1
     timeout_seconds = 120

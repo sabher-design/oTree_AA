@@ -19,7 +19,7 @@ Study on preferences for affirmative action
 
 
 class Constants(BaseConstants):
-    name_in_url = 'app3_p5678'
+    name_in_url = 'app3_p5678_w'
     players_per_group = None
     num_rounds = 1
     
