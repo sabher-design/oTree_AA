@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898d557b-03ba-4e00-8dac-241eb9567f6a" name="Changes" comment="" />
+    <list default="true" id="898d557b-03ba-4e00-8dac-241eb9567f6a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app3_p5678_men/templates/app3_p5678_men/p6a_SPECnSPECGmen.html" beforeDir="false" afterPath="$PROJECT_DIR$/app3_p5678_men/templates/app3_p5678_men/p6a_SPECnSPECGmen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3_p5678_women/templates/app3_p5678_women/p6a_SPECnSPECGwomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/app3_p5678_women/templates/app3_p5678_women/p6a_SPECnSPECGwomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ploying an oTree experiment using oTree Hub-ChatGPT.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "last_opened_file_path": "C:/Users/DICE/sciebo/Veil of ignorance and affirmative action/oTree/app3_p5678_men/templates/app3_p5678_men",
+    "last_opened_file_path": "C:/Users/DICE/sciebo/Veil of ignorance and affirmative action/oTree",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,8 +47,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree\app3_p5678_men\templates\app3_p5678_men" />
       <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree" />
+      <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree\app3_p5678_men\templates\app3_p5678_men" />
       <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree\app3_p5678_women\templates\app3_p5678" />
       <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree\app3_p5678_TP_men\templates\app3_p5678_TP_men" />
       <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree\app3_p5678_TP_women\templates\app3_p5678_TP" />
@@ -67,6 +72,7 @@
       <workItem from="1709811589669" duration="6387000" />
       <workItem from="1710150325836" duration="11301000" />
       <workItem from="1710326106993" duration="17612000" />
+      <workItem from="1710864647856" duration="19116000" />
     </task>
     <servers />
   </component>

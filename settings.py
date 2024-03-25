@@ -7,9 +7,10 @@ SESSION_CONFIGS = [
        num_demo_participants=10,
        #infospec women
        app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_women', 'word_encryption', 'app5_p1112_quest_women']
-        ),
+       ),
     # women-testing
-    # app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
+       #app_sequence=['app1_p1234_intro_women_men', 'app3_p5678_women', 'app5_p1112_quest_women']
+        #),
     dict(
        name='AAPref_infospec_men',
        display_name="AAPref_infospec_men",
