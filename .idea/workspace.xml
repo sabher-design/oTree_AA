@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="898d557b-03ba-4e00-8dac-241eb9567f6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app3_p5678_men/templates/app3_p5678_men/p6a_SPECnSPECGmen.html" beforeDir="false" afterPath="$PROJECT_DIR$/app3_p5678_men/templates/app3_p5678_men/p6a_SPECnSPECGmen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3_p5678_women/templates/app3_p5678_women/p6a_SPECnSPECGwomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/app3_p5678_women/templates/app3_p5678_women/p6a_SPECnSPECGwomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1_p1234_intro_women_men/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app1_p1234_intro_women_men/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$ploying an oTree experiment using oTree Hub-ChatGPT.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "last_opened_file_path": "C:/Users/DICE/sciebo/Veil of ignorance and affirmative action/oTree",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DICE/sciebo/Veil of ignorance and affirmative action/oTree&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DICE\sciebo\Veil of ignorance and affirmative action\oTree" />
@@ -73,6 +72,8 @@
       <workItem from="1710150325836" duration="11301000" />
       <workItem from="1710326106993" duration="17612000" />
       <workItem from="1710864647856" duration="19116000" />
+      <workItem from="1711587733427" duration="314000" />
+      <workItem from="1713300749641" duration="7648000" />
     </task>
     <servers />
   </component>

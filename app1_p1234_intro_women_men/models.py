@@ -36,15 +36,15 @@ class Subsession(BaseSubsession):
       ##### 1/2 INFO, 1/2 SPECG
        # To run the session for replacement obs (due to dropouts or invalid data), modify the sequence of subgroups accordingly.
 
-        subgroups = itertools.cycle(['INFO_women', 'SPECG_women'])
+        subgroups = itertools.cycle(['INFO', 'SPECG'])
 
         for p in self.get_players():
             p.subgroup = next(subgroups)
          
         for p in self.get_players():
-            if p.subgroup == 'INFO_women':
+            if p.subgroup == 'INFO':
                p.treatment= 'INFO'
-            if p.subgroup == 'SPECG_women':
+            if p.subgroup == 'SPECG':
                p.treatment= 'SPECG'
 
             # Save to participant vars

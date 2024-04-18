@@ -4,7 +4,7 @@ SESSION_CONFIGS = [
     dict(
        name='AAPref_infospec_women',
        display_name="AAPref_infospec_women",
-       num_demo_participants=10,
+       num_demo_participants=312,
        #infospec women
        app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_women', 'word_encryption', 'app5_p1112_quest_women']
        ),
@@ -14,7 +14,7 @@ SESSION_CONFIGS = [
     dict(
        name='AAPref_infospec_men',
        display_name="AAPref_infospec_men",
-       num_demo_participants=10,
+       num_demo_participants=312,
        #infospec men
        app_sequence=['app1_p1234_intro_women_men', 'word_encryption_trial', 'app3_p5678_men', 'word_encryption', 'app5_p1112_quest_men']
         # men-testing
@@ -23,7 +23,7 @@ SESSION_CONFIGS = [
     dict(
        name='AAPref_TP_women',
        display_name="AAPref_TP_women",
-       num_demo_participants=10,
+       num_demo_participants=26,
        #TP women
        app_sequence=[ 'app1_p1234_intro_TP_women_men', 'word_encryption_trial_TP', 'app3_p5678_TP_women','word_encryption_round1','word_encryption_round2','word_encryption_round3',
                      'word_encryption_round4','word_encryption_round5','word_encryption_round6', 'app5_p1112_quest_TP']
@@ -33,7 +33,7 @@ SESSION_CONFIGS = [
     dict(
        name='AAPref_TP_men',
        display_name="AAPref_TP_men",
-       num_demo_participants=10,
+       num_demo_participants=26,
        #TP men
        app_sequence = ['app1_p1234_intro_TP_women_men', 'word_encryption_trial_TP', 'app3_p5678_TP_men', 'word_encryption_round1',
                     'word_encryption_round2', 'word_encryption_round3',
